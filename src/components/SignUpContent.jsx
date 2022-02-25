@@ -54,16 +54,16 @@ export default function Signup() {
 		</div>
 	);
 }
-{
-	/*IMPORT SIGNUPFORM*/
-}
+// {
+// 	/*IMPORT SIGNUPFORM*/
+// }
 
-{
-	/*LEFT PART KA JSX*/
-}
+// {
+// 	/*LEFT PART KA JSX*/
+// }
 
-{
-	/*EXPORT THIS FILE TO SIGNU.JSX*/
-}
+// {
+// 	/*EXPORT THIS FILE TO SIGNU.JSX*/
+// }
 
-//ALL DONE IG
+// //ALL DONE IG
