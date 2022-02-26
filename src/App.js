@@ -1,5 +1,13 @@
-export default function App() {
+import React from 'react'
+import Signup from './Pages/signup'
+// import About from './Pages/about'
+
+function App() {
   return (
-    <h1 className="text-3xl font-bold underline text-center">Under Progress</h1>
-  );
+    <div>
+      <Signup />
+    </div>
+  )
 }
+
+export default App
