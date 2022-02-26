@@ -1,13 +1,13 @@
 import React from "react";
-import Signup from "./Pages/signup";
-// import About from "./Pages/about";
+// import Signup from "./Pages/signup";
+import About from "./Pages/about";
 
 function App() {
-  return (
-    <div>
-      <Signup />
-    </div>
-  );
+	return (
+		<div>
+			<About />
+		</div>
+	);
 }
 
 export default App;
