@@ -1,4 +1,28 @@
 @tailwind base;
 @tailwind components;
 
+@font-face {
+  font-family: "body-regular";
+  src: url("../assets/Font/averta-regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "body-bold";
+  src: url("../assets/Font/averta-bold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "head-black";
+  src: url("../assets/Font/head-black.woff") format("woff");
+}
+
+@font-face {
+  font-family: "head-light";
+  src: url("../assets/Font/head-light.woff") format("woff");
+}
+
+@font-face {
+  font-family: "body-medium";
+  src: url("../assets/Font/head-medium.woff") format("woff");
+}
 @tailwind utilities;
