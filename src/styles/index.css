@@ -25,4 +25,8 @@
   font-family: 'body-medium';
   src: url('../assets/Font/head-medium.woff') format('woff');
 }
+
+*{
+font-family: 'body-regular';
+}
 @tailwind utilities;
