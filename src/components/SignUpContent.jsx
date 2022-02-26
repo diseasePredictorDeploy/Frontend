@@ -1,16 +1,16 @@
-import React from "react";
-import SignUpForm from "../components/signUpForm";
-import Google from "../assets/images/google.svg";
+import React from 'react'
+import SignUpForm from '../components/signUpForm'
+import Google from '../assets/images/google.svg'
 
 export default function Signup() {
   let options = [
     {
       icon: Google,
-      name: "Sign up with Google",
-      dim: "w-7",
-      width: "w-[250px]",
+      name: 'Sign up with Google',
+      dim: 'w-7',
+      width: 'w-[250px]',
     },
-  ];
+  ]
 
   return (
     <div className="flex flex-col basis-[50%] text-xl">
@@ -52,7 +52,7 @@ export default function Signup() {
         </div>
       </div>
     </div>
-  );
+  )
 }
 // {
 // 	/*IMPORT SIGNUPFORM*/

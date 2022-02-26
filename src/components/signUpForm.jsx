@@ -1,42 +1,42 @@
-import React from "react";
-import { useFormik } from "formik";
+import React from 'react'
+import { useFormik } from 'formik'
 
 const initialValues = {
-  name: "",
-  email: "",
-  password: "",
-};
+  name: '',
+  email: '',
+  password: '',
+}
 
 const onSubmit = (values) => {
-  console.log("Form Data", values);
-};
+  console.log('Form Data', values)
+}
 
 const validate = (values) => {
-  let errors = {};
+  let errors = {}
 
   if (!values.name) {
-    errors.name = "Required Field";
+    errors.name = 'Required Field'
   }
   if (!values.email) {
-    errors.email = "Required Field";
+    errors.email = 'Required Field'
   } else if (!/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i.test(values.email)) {
-    errors.email = "Invalid Email Format";
+    errors.email = 'Invalid Email Format'
   }
 
   if (!values.password) {
-    errors.password = "Required Field";
+    errors.password = 'Required Field'
   }
-  return errors;
-};
+  return errors
+}
 
 function SignUpForm() {
   const formik = useFormik({
     initialValues,
     onSubmit,
     validate,
-  });
+  })
 
-  console.log("form errors", formik.errors);
+  console.log('form errors', formik.errors)
 
   return (
     <div>
@@ -78,7 +78,7 @@ function SignUpForm() {
         <button type="submit">Submit</button>
       </form>
     </div>
-  );
+  )
 }
 
-export default SignUpForm;
+export default SignUpForm
