@@ -21,10 +21,10 @@ function Team(props) {
 
       <div className="flex justify-center">
         <a href={props.github}>
-          <img src={Github} className="p-4"></img>
+          <img src={Github} alt="github logo" className="p-4"></img>
         </a>
         <a href={props.linkedin}>
-          <img src={Linkedin} className="p-4"></img>
+          <img src={Linkedin} alt="linkedin logo" className="p-4"></img>
         </a>
       </div>
     </div>

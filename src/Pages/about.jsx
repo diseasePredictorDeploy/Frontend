@@ -2,7 +2,6 @@ import React from 'react'
 // import lottie from "lottie-web";
 // import Contact from "../assets/images/contactlottie.json";
 import Contact from '../assets/images/conlottie.gif'
-import Dhaivat from '../assets/images/team/Dhaivat.jpg'
 import Team from '../components/Team'
 import members from '../components/Member'
 
