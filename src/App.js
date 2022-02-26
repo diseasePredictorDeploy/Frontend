@@ -9,12 +9,14 @@ import {
 import Signup from './Pages/signup'
 import About from './Pages/about'
 import Home from './Pages/home'
+import Navbar from './components/Navbar';
 
 function App() {
   return (
     <Router>
       <div>
-      <Switch>
+        <Navbar />
+        <Switch>
           <Route path="/about">
             <About />
           </Route>
