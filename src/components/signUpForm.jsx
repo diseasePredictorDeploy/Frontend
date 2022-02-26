@@ -49,9 +49,10 @@ function SignUpForm() {
             placeholder="Full Name"
             onChange={formik.handleChange}
             value={formik.values.name}
+            onBlur={formik.handleBlur}
             className="form-input text-field"
           />
-          {formik.errors.name ? (
+          {formik.touched.name && formik.errors.name ? (
             <div className="valid">{formik.errors.name} </div>
           ) : null}
         </div>
@@ -62,10 +63,11 @@ function SignUpForm() {
             name="email"
             placeholder="Your Email"
             onChange={formik.handleChange}
+            onBlur={formik.handleBlur}
             value={formik.values.email}
             className="form-input text-field"
           />
-          {formik.errors.email ? (
+          {formik.touched.email && formik.errors.email ? (
             <div className="valid">{formik.errors.email} </div>
           ) : null}
         </div>
@@ -76,10 +78,11 @@ function SignUpForm() {
             name="password"
             placeholder="Password"
             onChange={formik.handleChange}
+            onBlur={formik.handleBlur}
             value={formik.values.password}
             className="form-input text-field"
           />
-          {formik.errors.password ? (
+          {formik.touched.password && formik.errors.password ? (
             <div className="valid">{formik.errors.password} </div>
           ) : null}
         </div>
