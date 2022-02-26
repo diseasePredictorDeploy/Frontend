@@ -8,7 +8,7 @@ export default function Signup() {
       icon: Google,
       name: 'Sign up with Google',
       dim: 'w-7',
-      width: 'w-[250px]',
+      width: 'w-fit',
     },
   ]
 
@@ -16,14 +16,14 @@ export default function Signup() {
     <div className="flex flex-col basis-[50%] text-xl">
       <div className="flex flex-col basis-[95%] relative">
         <div className="absolute top-[5%] space-y-2 text-center w-full">
-          <h1 className="text-[#30194F] font-bold text-7xl ">
-            Create Account.
+          <h1 className="text-[#30194F] font-bold text-7xl font-[head-medium]">
+            Create Account
           </h1>
           <p className="text-[#C996CC] ">
             Share your thoughts with the world from today.
           </p>
         </div>
-        <div className="absolute top-[26.5%] w-full">
+        <div className="absolute top-[24%] w-full">
           <div className="space-y-4">
             <div className="flex gap-3 ">
               {options.map((props) => (
@@ -42,7 +42,7 @@ export default function Signup() {
             </div>
           </div>
         </div>
-        <div className="absolute top-[45%] left-1/2 -translate-x-1/2">
+        <div className="absolute top-[43%] left-1/2 -translate-x-1/2">
           <SignUpForm />
         </div>
 
