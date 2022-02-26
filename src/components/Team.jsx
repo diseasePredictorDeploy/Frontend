@@ -1,19 +1,34 @@
-import React from "react";
-
+import React from 'react'
+import Github from '../assets/images/github.svg'
+import Linkedin from '../assets/images/linkedin.svg'
 function Team(props) {
-	return (
-		<div className=" my-10 flex flex-col px-32">
-			<div className="flex flex-row pb-10">
-				<p className="my-auto mr-16">{props.name}</p>
-				<img
-					className="w-40 h-40 object-cover rounded-full"
-					src={props.imgURL}
-					alt={props.key}
-				/>
-			</div>
-			<div className="w-96">{props.about}</div>
-		</div>
-	);
+  return (
+    <div className=" my-10 flex flex-col w-80 p-6 rounded-xl shadow-2xl gap-2">
+      <div className="flex flex-col pt-5 pb-10 items-center">
+        <img
+          className="w-40 h-40 object-cover  border-[0.5rem] border-[#8946A6] rounded-full"
+          src={props.imgURL}
+          alt={props.key}
+        />
+      </div>
+      <p className="my-auto mr-16 text-center w-full font-[body-bold] text-3xl">
+        {props.name}
+      </p>
+      <p className="text-center w-full font-[head-light] text-[#cc6fce] text-sm py-1">
+        {props.email}
+      </p>
+      <div className="text-center font-[body-regular]">{props.about}</div>
+
+      <div className="flex justify-center">
+        <a href={props.github}>
+          <img src={Github} className="p-4"></img>
+        </a>
+        <a href={props.linkedin}>
+          <img src={Linkedin} className="p-4"></img>
+        </a>
+      </div>
+    </div>
+  )
 }
 
-export default Team;
+export default Team

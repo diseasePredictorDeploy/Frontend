@@ -22,11 +22,11 @@
 }
 
 @font-face {
-  font-family: 'body-medium';
+  font-family: 'head-medium';
   src: url('../assets/Font/head-medium.woff') format('woff');
 }
 
-*{
-font-family: 'body-regular';
+* {
+  font-family: 'body-regular';
 }
 @tailwind utilities;
