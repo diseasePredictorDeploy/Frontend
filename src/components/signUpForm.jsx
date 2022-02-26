@@ -40,8 +40,8 @@ function SignUpForm() {
 
   return (
     <div>
-      <form onSubmit={formik.handleSubmit} className="flex flex-col space-y-4 ">
-        <div className="">
+      <form onSubmit={formik.handleSubmit} className="flex flex-col space-y-8 ">
+        <div>
           <input
             type="text"
             id="name"
@@ -49,8 +49,11 @@ function SignUpForm() {
             placeholder="Full Name"
             onChange={formik.handleChange}
             value={formik.values.name}
+            className="form-input text-field"
           />
-          {formik.errors.name ? <div>{formik.errors.name} </div> : null}
+          {formik.errors.name ? (
+            <div className="valid">{formik.errors.name} </div>
+          ) : null}
         </div>
         <div className="">
           <input
@@ -60,8 +63,11 @@ function SignUpForm() {
             placeholder="Your Email"
             onChange={formik.handleChange}
             value={formik.values.email}
+            className="form-input text-field"
           />
-          {formik.errors.email ? <div>{formik.errors.email} </div> : null}
+          {formik.errors.email ? (
+            <div className="valid">{formik.errors.email} </div>
+          ) : null}
         </div>
         <div className="">
           <input
@@ -71,8 +77,11 @@ function SignUpForm() {
             placeholder="Password"
             onChange={formik.handleChange}
             value={formik.values.password}
+            className="form-input text-field"
           />
-          {formik.errors.password ? <div>{formik.errors.password} </div> : null}
+          {formik.errors.password ? (
+            <div className="valid">{formik.errors.password} </div>
+          ) : null}
         </div>
 
         <button type="submit">Submit</button>

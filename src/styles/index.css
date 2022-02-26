@@ -22,11 +22,26 @@
 }
 
 @font-face {
-  font-family: 'body-medium';
+  font-family: 'head-medium';
   src: url('../assets/Font/head-medium.woff') format('woff');
 }
 
-*{
-font-family: 'body-regular';
+* {
+  font-family: 'body-regular';
 }
+
+.valid {
+  color: #b91c1c;
+  font-size: 1rem;
+}
+
+.text-field {
+  border: 2px solid #c996cc;
+  border-radius: 9999px;
+}
+
+.text-field:hover {
+  border-color: #cc6fce;
+}
+
 @tailwind utilities;
