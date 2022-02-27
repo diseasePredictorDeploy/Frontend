@@ -1,6 +1,7 @@
 import React from 'react'
 import { useFormik } from 'formik'
 import * as Yup from 'yup'
+import Button from '../Pages/button'
 
 const initialValues = {
   name: '',
@@ -93,11 +94,8 @@ function SignUpForm() {
         ) : null}
       </div>
 
-      <button
-        type="submit"
-        className="bg-[#C996CC] text-[#30194F] rounded-full py-3 w-7/12 mx-auto hover:drop-shadow-xl hover:scale-110 transition-all"
-      >
-        Submit
+      <button type="submit" className="relative">
+        <Button />
       </button>
     </form>
   )
