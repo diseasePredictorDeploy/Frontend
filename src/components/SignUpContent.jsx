@@ -32,10 +32,10 @@ export default function Signup() {
         </div>
         <div className="absolute top-[19%] w-full">
           <div className="space-y-4">
-            <div className="flex gap-2 ">
+            <div className="flex justify-center gap-6">
               {options.map((props) => (
                 <div
-                  className={`cursor-pointer border-2 border-[#C996CC] hover:border-[#cc6fce] mx-auto flex px-8 py-4 items-center gap-3 ${props.width} rounded-full`}
+                  className={`cursor-pointer border-2 border-[#C996CC] hover:border-[#cc6fce]  flex px-8 py-4 items-center gap-3 ${props.width} rounded-full`}
                 >
                   <img src={props.icon} className={props.dim} alt="logo"></img>
                   <p className="text-base">{props.name}</p>

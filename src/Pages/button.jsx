@@ -14,7 +14,7 @@ function Button() {
           height="100%"
         />
       </svg>
-      <p className="relative top-0 left-0 text-[#FEF8ED]">SUBMIT</p>
+      <p className="relative top-0 left-0 text-[#30194F]">SUBMIT</p>
     </div>
   )
 }

@@ -24,7 +24,7 @@ export default function Signin() {
             <div
               id="docLottie"
               style={{ width: 740, height: 740 }}
-              className="pt-8 pr-12"
+              className="py-auto px-auto"
             ></div>
           </div>
         </div>

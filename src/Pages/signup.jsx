@@ -24,7 +24,7 @@ export default function Signup() {
             <div
               id="docLottie"
               style={{ width: 740, height: 740 }}
-              className="pt-8 pr-12"
+              className="px-auto py-auto"
             ></div>
           </div>
         </div>

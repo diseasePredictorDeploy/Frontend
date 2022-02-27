@@ -94,7 +94,7 @@ function SignUpForm() {
         ) : null}
       </div>
 
-      <button type="submit" className="relative">
+      <button type="submit" className="relative pt-3">
         <Button />
       </button>
     </form>
