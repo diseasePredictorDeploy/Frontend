@@ -3,7 +3,7 @@ import Github from '../assets/images/github.svg'
 import Linkedin from '../assets/images/linkedin.svg'
 function Team(props) {
   return (
-    <div className=" my-10 flex flex-col w-80 p-6 rounded-xl shadow-2xl gap-2">
+    <div className=" my-10 flex flex-col w-[22rem]  p-6 rounded-xl shadow-2xl gap-2">
       <div className="flex flex-col pt-5 pb-10 items-center">
         <img
           className="w-40 h-40 object-cover  border-[0.5rem] border-[#8946A6] rounded-full"

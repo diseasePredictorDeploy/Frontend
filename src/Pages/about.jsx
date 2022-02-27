@@ -65,10 +65,10 @@ export default function about() {
           <div className="w-[60vw] my-auto px-20">
             <h3 className="text-[32px] py-10">CONTACT US</h3>
             <p className="text-[26px]">
-              Instagram- idbidbv <br />
-              EMail- VirtualVItals@gmail.com <br />
-              Twitter- @VirtualVitals <br />
-              Phone NO- XXXXXXXXX <br />
+              Instagram - idbidbv <br />
+              Email - VirtualVItals@gmail.com <br />
+              Twitter - @VirtualVitals <br />
+              Phone No - XXXXXXXXX <br />
             </p>
           </div>
           {/* <div className="w-[600px] h-[600px]"> */}
