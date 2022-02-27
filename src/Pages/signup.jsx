@@ -2,6 +2,7 @@ import React from 'react'
 import lottie from 'lottie-web'
 import Doctor from '../assets/images/doclottie.json'
 import SignUpContent from '../components/SignUpContent'
+import Navbar from '../components/Navbar'
 
 export default function Signup() {
   React.useEffect(() => {
@@ -14,17 +15,20 @@ export default function Signup() {
   }, [])
 
   return (
-    <section className="box-border grid place-content-center min-h-screen min-w-full bg-[#FEF8ED]">
-      <div className="container flex w-screen">
-        <SignUpContent />
-        <div className="basis-[50%] overflow-x-visible">
-          <div
-            id="docLottie"
-            style={{ width: 700, height: 700 }}
-            className="my-auto"
-          ></div>
+    <div className="h-screen">
+      <Navbar />
+      <section className="box-border grid place-content-center min-w-full bg-[#FEF8ED]">
+        <div className="container flex w-screen">
+          <SignUpContent />
+          <div className="basis-[50%] overflow-hidden">
+            <div
+              id="docLottie"
+              style={{ width: 750, height: 750 }}
+              className="pt-8 pr-12"
+            ></div>
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </div>
   )
 }

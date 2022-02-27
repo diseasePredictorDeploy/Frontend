@@ -53,7 +53,7 @@ export default function Signup() {
           <SignUpForm />
         </div>
 
-        <div className="absolute top-[93%]  text-center w-full">
+        <div className="absolute top-[90%]  text-center w-full">
           <span className="text-[#C996CC]">Already have an account </span>
           <a href="/signin" className="text-[#8946A6] font-semibold">
             Login!
