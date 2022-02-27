@@ -1,5 +1,4 @@
 import React from 'react'
-import SignUpForm from '../components/signUpForm'
 import Google from '../assets/images/google.svg'
 
 export default function Signin() {
@@ -38,9 +37,7 @@ export default function Signin() {
             </div>
           </div>
         </div>
-        <div className="absolute top-[45%] left-1/2 -translate-x-1/2">
-          <SignUpForm />
-        </div>
+        <div className="absolute top-[45%] left-1/2 -translate-x-1/2"></div>
 
         <div className="absolute top-[96%] text-center w-full ">
           <span className="text-[#C996CC]">New to Virtual Vitals? </span>

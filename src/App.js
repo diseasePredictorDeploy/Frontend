@@ -10,6 +10,7 @@ import Signup from './Pages/signup'
 import About from './Pages/about'
 import Home from './Pages/home'
 import Navbar from './components/Navbar'
+import Signin from './Pages/signin'
 
 function App() {
   return (
@@ -25,6 +26,9 @@ function App() {
           </Route>
           <Route path="/">
             <Home />
+          </Route>
+          <Route path="/signin">
+            <Signin />
           </Route>
         </Switch>
       </div>

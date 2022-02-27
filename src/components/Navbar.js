@@ -11,7 +11,10 @@ export default function Navbar() {
           <a href="/about">About Us</a>
         </li>
         <li className="px-5">
-          <a href="/signup">SignUp</a>
+          <a href="/signup">Sign Up</a>
+        </li>
+        <li className="px-5">
+          <a href="/signin">Sign In</a>
         </li>
       </ul>
     </div>

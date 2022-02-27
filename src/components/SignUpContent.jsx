@@ -22,7 +22,7 @@ export default function Signup() {
   return (
     <div className="flex flex-col basis-[50%] text-xl">
       <div className="flex flex-col basis-[95%] relative">
-        <div className="absolute top-[5%] space-y-2 text-center w-full">
+        <div className="absolute  space-y-2 text-center w-full">
           <h1 className="text-[#30194F] font-bold text-7xl font-[head-medium]">
             Create Account
           </h1>
@@ -30,7 +30,7 @@ export default function Signup() {
             Share your thoughts with the world from today.
           </p>
         </div>
-        <div className="absolute top-[24%] w-full">
+        <div className="absolute top-[19%] w-full">
           <div className="space-y-4">
             <div className="flex gap-2 ">
               {options.map((props) => (
@@ -49,13 +49,15 @@ export default function Signup() {
             </div>
           </div>
         </div>
-        <div className="absolute top-[43%] left-1/2 -translate-x-1/2 w-full">
+        <div className="absolute top-[37%] left-1/2 -translate-x-1/2 w-full">
           <SignUpForm />
         </div>
 
-        <div className="absolute top-[96%]  text-center w-full">
+        <div className="absolute top-[93%]  text-center w-full">
           <span className="text-[#C996CC]">Already have an account </span>
-          <span className="text-[#8946A6] font-semibold">Login!</span>
+          <a href="/signin" className="text-[#8946A6] font-semibold">
+            Login!
+          </a>
         </div>
       </div>
     </div>
