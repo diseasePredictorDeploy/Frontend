@@ -4,12 +4,12 @@ import {
   Switch,
   Route,
   // Link
-} from "react-router-dom";
+} from 'react-router-dom'
 
 import Signup from './Pages/signup'
 import About from './Pages/about'
 import Home from './Pages/home'
-import Navbar from './components/Navbar';
+import Navbar from './components/Navbar'
 
 function App() {
   return (

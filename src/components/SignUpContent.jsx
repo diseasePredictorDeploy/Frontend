@@ -1,6 +1,7 @@
 import React from 'react'
-import SignUpForm from '../components/signUpForm'
+import SignUpForm from './signUpForm'
 import Google from '../assets/images/google.svg'
+import Facebook from '../assets/images/facebook.svg'
 
 export default function Signup() {
   let options = [
@@ -8,6 +9,12 @@ export default function Signup() {
       icon: Google,
       name: 'Sign up with Google',
       dim: 'w-7',
+      width: 'w-fit',
+    },
+    {
+      icon: Facebook,
+      name: 'Sign up with Facebook',
+      dim: 'w-6',
       width: 'w-fit',
     },
   ]
@@ -25,10 +32,10 @@ export default function Signup() {
         </div>
         <div className="absolute top-[24%] w-full">
           <div className="space-y-4">
-            <div className="flex gap-3 ">
+            <div className="flex gap-2 ">
               {options.map((props) => (
                 <div
-                  className={`border-2 border-[#C996CC] hover:border-[#cc6fce] mx-auto flex px-8 py-4 items-center gap-2 ${props.width} rounded-full`}
+                  className={`cursor-pointer border-2 border-[#C996CC] hover:border-[#cc6fce] mx-auto flex px-8 py-4 items-center gap-3 ${props.width} rounded-full`}
                 >
                   <img src={props.icon} className={props.dim} alt="logo"></img>
                   <p className="text-base">{props.name}</p>
@@ -42,7 +49,7 @@ export default function Signup() {
             </div>
           </div>
         </div>
-        <div className="absolute top-[43%] left-1/2 -translate-x-1/2">
+        <div className="absolute top-[43%] left-1/2 -translate-x-1/2 w-full">
           <SignUpForm />
         </div>
 
@@ -54,16 +61,3 @@ export default function Signup() {
     </div>
   )
 }
-// {
-// 	/*IMPORT SIGNUPFORM*/
-// }
-
-// {
-// 	/*LEFT PART KA JSX*/
-// }
-
-// {
-// 	/*EXPORT THIS FILE TO SIGNU.JSX*/
-// }
-
-// //ALL DONE IG

@@ -2,15 +2,15 @@ import React from 'react'
 
 export default function Navbar() {
   return (
-    <div className="h-20 bg-[#000000] text-[#C996CC]">
-      <ul className="flex flex-row text-[30px]">
-        <li className="m-5">
+    <div className="p-3 bg-[#000000] text-[#C996CC]">
+      <ul className="flex text-2xl space-x-10 justify-end">
+        <li className="px-5">
           <a href="/">Home</a>
         </li>
-        <li className="m-5">
-          <a href="/about">AboutUs</a>
+        <li className="px-5">
+          <a href="/about">About Us</a>
         </li>
-        <li className="m-5">
+        <li className="px-5">
           <a href="/signup">SignUp</a>
         </li>
       </ul>
