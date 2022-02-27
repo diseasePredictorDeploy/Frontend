@@ -23,7 +23,7 @@ export default function Signup() {
           <div className="basis-[50%] overflow-hidden">
             <div
               id="docLottie"
-              style={{ width: 750, height: 750 }}
+              style={{ width: 740, height: 740 }}
               className="pt-8 pr-12"
             ></div>
           </div>
