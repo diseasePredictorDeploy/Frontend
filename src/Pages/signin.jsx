@@ -15,9 +15,9 @@ export default function Signin() {
   }, [])
 
   return (
-    <div className="h-screen bg-[#FEF8ED]">
+    <div className="max-h-screen overflow-hidden bg-[#FEF8ED]">
       <Navbar />
-      <section className="box-border grid place-content-center min-w-full pt-20">
+      <section className="box-border grid place-content-center min-w-full ">
         <div className="container flex w-screen">
           <SignInContent />
           <div className="basis-[50%] overflow-hidden">
