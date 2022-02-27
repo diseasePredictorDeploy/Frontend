@@ -30,3 +30,11 @@
   font-family: 'body-regular';
 }
 @tailwind utilities;
+
+.valid {
+  @apply text-red-700 text-base;
+}
+
+.text-field {
+  @apply border-2 border-[#C996CC] hover:border-[#cc6fce] rounded-full px-7 py-3;
+}

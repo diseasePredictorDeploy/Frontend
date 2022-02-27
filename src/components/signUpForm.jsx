@@ -39,9 +39,12 @@ function SignUpForm() {
   console.log('form errors', formik.errors)
 
   return (
-    <div>
-      <form onSubmit={formik.handleSubmit} className="flex flex-col space-y-8 ">
-        <div>
+    <div className="w-full">
+      <form
+        onSubmit={formik.handleSubmit}
+        className="flex flex-col space-y-8 w-full"
+      >
+        <div className="w-full">
           <input
             type="text"
             id="name"
@@ -87,7 +90,12 @@ function SignUpForm() {
           ) : null}
         </div>
 
-        <button type="submit">Submit</button>
+        <button
+          type="submit"
+          className="bg-[#C996CC] text-[#30194F] rounded-full py-3 w-9/12 mx-auto"
+        >
+          Submit
+        </button>
       </form>
     </div>
   )
