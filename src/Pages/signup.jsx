@@ -17,8 +17,8 @@ export default function Signup() {
   return (
     <div className="bg-[#FEF8ED] max-h-screen overflow-hidden">
       <Navbar />
-      <section className="box-border grid place-content-center min-w-full bg-[#FEF8ED]">
-        <div className="container flex w-screen">
+      <section className="box-border  min-w-full bg-[#FEF8ED]">
+        <div className="container flex mx-auto ">
           <SignUpContent />
           <div className="basis-[50%] overflow-hidden">
             <div
