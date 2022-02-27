@@ -15,9 +15,9 @@ export default function Signin() {
   }, [])
 
   return (
-    <>
+    <div className="h-screen bg-[#FEF8ED]">
       <Navbar />
-      <section className="box-border grid place-content-center min-h-[93.5vh] min-w-full bg-[#FEF8ED]">
+      <section className="box-border grid place-content-center min-w-full pt-20">
         <div className="container flex w-screen">
           <SignInContent />
           <div className="basis-[50%] overflow-hidden">
@@ -29,6 +29,6 @@ export default function Signin() {
           </div>
         </div>
       </section>
-    </>
+    </div>
   )
 }

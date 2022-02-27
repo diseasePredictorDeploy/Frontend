@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Navbar() {
   return (
-    <div className=" p-3  bg-[#FEF8ED] text-[#30194F] ">
+    <div className=" p-3 w-screen bg-[#FEF8ED] text-[#30194F] fixed">
       <ul className="flex text-lg space-x-10 justify-end uppercase">
         <li className="px-5 ">
           <a className="font-[head-medium]" href="/">
