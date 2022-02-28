@@ -3,8 +3,7 @@ import lottie from 'lottie-web'
 import Navbar from '../components/Navbar'
 // import Wave from '../assets/images/wave.gif'
 import Landing from '../assets/images/Landing.json'
-
-import Typewriter from 'typewriter-effect/dist/core'
+import Typewriter from 'typewriter-effect'
 
 export default function Home() {
   useEffect(() => {
@@ -16,18 +15,23 @@ export default function Home() {
     })
   }, [])
 
-  new Typewriter('#typewriter', {
-    strings: ['Hello', 'World'],
-    autoStart: true,
-  })
+  // new Typewriter('#typewriter', {
+  //   strings: ['Hello', 'World'],
+  //   autoStart: true,
+  //   loop: true,
+  // })
 
   return (
     <div className="bg-[#FEF8ED] h-screen overflow-x-hidden">
       <Navbar />
-      <div className="flex flex-row">
-        {/* <div className="" id="typewriter">
-          abc
-        </div> */}
+      <div className="flex flex-row w-screen">
+        <Typewriter
+          onInit={(typewriter) => {
+            typewriter
+              .typeString('You have the symptoms,... We have the solution')
+              .start()
+          }}
+        />
 
         <div className=" overflow-hidden">
           <div
