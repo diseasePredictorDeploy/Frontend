@@ -29,7 +29,7 @@ export default function About() {
     )
   }
   return (
-    <div className="">
+    <div className="overflow-x-hidden">
       <Navbar />
       <div className="flex flex-col text-center">
         <div className=" p-20 bg-[#FEF8ED]">
@@ -76,13 +76,21 @@ export default function About() {
           </div>
         </div>
 
-        <div className=" w-full flex flex-row">
+        <div className=" w-full flex flex-row bg-[#C996CC] justify-around items-center">
           <div className="w-50 ">
             <img
               src={Contactus}
               alt="gif"
-              style={{ width: 500, height: 500 }}
+              style={{ width: 550, height: 450 }}
             ></img>
+          </div>
+          <div className="text-[#30194F]">
+            <h3 className="text-[32px] py-8 font-[head-medium] font-bold">
+              WE'D LOVE TO HEAR FROM YOU
+            </h3>
+            <p className="text-[26px]">
+              Email - thelittlesyndicate.org@gmail.com <br />
+            </p>
           </div>
         </div>
       </div>

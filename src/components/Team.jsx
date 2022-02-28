@@ -14,7 +14,7 @@ function Team(props) {
       <p className="my-auto mr-16 text-center w-full font-[body-bold] text-3xl">
         {props.name}
       </p>
-      <p className="text-center w-full font-[head-light] text-[#cc6fce] text-sm py-1">
+      <p className="text-center w-full font-[head-light]  text-sm py-1">
         {props.email}
       </p>
       <div className="text-center font-[body-regular]">{props.about}</div>
