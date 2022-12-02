@@ -46,9 +46,8 @@ export default function about() {
             What is Virtual Vitals?
           </h3>
           <p className="text-xl my-7 text-[#8946A6]">
-            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
-            sint. Velit officia consequat duis enim velit mollit. Exercitation
-            veniam consequat sunt nostrud amet.
+          It is a Disease Prediction website which helps the doctor or patient to predict various types of disease in less time and gives accurate results.
+Now a days labs take too much time in finding the results of lab so, doctor can find the disease of a person in less time.
           </p>
         </div>
 
